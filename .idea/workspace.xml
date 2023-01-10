@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9fc1a41-1f78-4b04-92dc-19caf563447d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassificationCuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ComplexSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework4/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework4/SpoonacularTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShoppingList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Jx3m40f8FvPTQbWt8U0arE9XI2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SpoonacularTest.testAddToShoppingList">
+    <configuration name="SpoonacularTest.GetRecipesWithoutDetailedInformationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework4" />
+      <option name="MAIN_CLASS_NAME" value="Homework4.SpoonacularTest" />
+      <option name="METHOD_NAME" value="GetRecipesWithoutDetailedInformationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularTest.testAddToShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework4" />
+      <option name="MAIN_CLASS_NAME" value="Homework4.SpoonacularTest" />
+      <option name="METHOD_NAME" value="testAddToShoppingList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularTest.testComputeShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework4" />
+      <option name="MAIN_CLASS_NAME" value="Homework4.SpoonacularTest" />
+      <option name="METHOD_NAME" value="testComputeShoppingList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularTest.testDeleteFromShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework4" />
+      <option name="MAIN_CLASS_NAME" value="Homework4.SpoonacularTest" />
+      <option name="METHOD_NAME" value="testDeleteFromShoppingList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonacularTest.testGetShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework4" />
+      <option name="MAIN_CLASS_NAME" value="Homework4.SpoonacularTest" />
+      <option name="METHOD_NAME" value="testGetShoppingList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpoonacularTest.testAddToShoppingList" />
+        <item itemvalue="JUnit.SpoonacularTest.testGetShoppingList" />
+        <item itemvalue="JUnit.SpoonacularTest.testComputeShoppingList" />
+        <item itemvalue="JUnit.SpoonacularTest.testDeleteFromShoppingList" />
+        <item itemvalue="JUnit.SpoonacularTest.GetRecipesWithoutDetailedInformationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9fc1a41-1f78-4b04-92dc-19caf563447d" name="Changes" comment="" />
+      <created>1673006066713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673006066713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
