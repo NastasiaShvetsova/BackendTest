@@ -41,7 +41,7 @@ public class GetProductsTest {
 
     @Test
     void getProductsTest() throws IOException {
-        Response<Product> response = productService.getProducts();
+        Response<Product[]> response = productService.getProducts().execute();
         assertThat(response.isSuccessful(), CoreMatchers.is(true));
     }
 

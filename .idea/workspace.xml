@@ -5,22 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9fc1a41-1f78-4b04-92dc-19caf563447d" name="Changes" comment="check">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/dto/GetCategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/dto/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/utils/LoggingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/utils/RetrofitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/CreateProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/DeleteProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/GetCategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/GetProductByIdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/GetProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/ModifyProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/dao/CategoriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/dao/ProductsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/mapper/xml/CategoriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/mapper/xml/ProductsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/model/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/model/CategoriesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/model/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework6/db/model/ProductsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/AbstractTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/DeleteProductTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/GetCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/GetProductByIdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/GetProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework6/ModifyProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework5/api/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework5/api/dto/GetCategoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/dto/GetCategoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework5/GetProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework5/GetProductsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,38 +72,39 @@
       <recent name="Homework5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModifyProductTest">
-    <configuration name="DeleteProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetCategoryTest.getCategoryByIdPositiveTest (1)">
+    <configuration name="AdditBDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework5.*" />
+          <option name="PATTERN" value="Homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework5" />
-      <option name="MAIN_CLASS_NAME" value="Homework5.DeleteProductTest" />
+      <option name="PACKAGE_NAME" value="Homework6" />
+      <option name="MAIN_CLASS_NAME" value="Homework6.AdditBDTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteProductTests.deleteProductByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework5.*" />
+          <option name="PATTERN" value="Homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework5" />
-      <option name="MAIN_CLASS_NAME" value="Homework5.GetProductsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Homework6" />
+      <option name="MAIN_CLASS_NAME" value="Homework6.DeleteProductTests" />
+      <option name="METHOD_NAME" value="deleteProductByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetProductsTest.getProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backendTest" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +113,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework5" />
-      <option name="MAIN_CLASS_NAME" value="Homework5.GetProductsTest" />
-      <option name="METHOD_NAME" value="getProductsTest" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backendTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework6" />
+      <option name="MAIN_CLASS_NAME" value="Homework6.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,27 +140,12 @@
       <module name="backendTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework5.*" />
+          <option name="PATTERN" value="Homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework5" />
-      <option name="MAIN_CLASS_NAME" value="Homework5.ModifyProductTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Utils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backendTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework5" />
-      <option name="MAIN_CLASS_NAME" value="Homework5.Utils" />
+      <option name="PACKAGE_NAME" value="Homework6" />
+      <option name="MAIN_CLASS_NAME" value="Homework6.ModifyProductTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest (1)" />
+        <item itemvalue="JUnit.AdditBDTest" />
         <item itemvalue="JUnit.ModifyProductTest" />
-        <item itemvalue="JUnit.Utils" />
-        <item itemvalue="JUnit.DeleteProductTest" />
-        <item itemvalue="JUnit.GetProductsTest" />
-        <item itemvalue="JUnit.GetProductsTest.getProductsTest" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.DeleteProductTests.deleteProductByIdPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +170,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673006066713</updated>
     </task>
+    <task id="LOCAL-00001" summary="check">
+      <created>1673626982971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673626982971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
